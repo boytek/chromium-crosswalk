@@ -2395,6 +2395,10 @@
 
      # Whether to allow building of chromoting related isolates.
     'archive_chromoting_tests%': 0,
+
+    # Flags to enable Murphy resource policy daemon integration on Tizen.
+    'tizen%': 0,
+    'enable_murphy%': 0,
   },
   'target_defaults': {
     'variables': {
